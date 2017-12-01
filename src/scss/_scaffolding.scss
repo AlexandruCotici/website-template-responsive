@@ -1,0 +1,10 @@
+html {
+  font: $font-style $font-variant $font-weight $font-family;
+}
+
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

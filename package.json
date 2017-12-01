@@ -1,0 +1,43 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Personal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandruCotici/Portfolio.git"
+  },
+  "author": "Alexandru Cotici <alexandrucoticidesign@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandruCotici/Portfolio/issues"
+  },
+  "homepage": "https://github.com/AlexandruCotici/Portfolio#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-inject-partials": "^1.0.3",
+    "gulp-minify": "^2.1.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "jquery": "^3.2.1",
+    "jquery.counterup": "^2.1.0",
+    "jquery.serialscroll": "^1.3.0",
+    "magnific-popup": "^1.1.0",
+    "merge-stream": "^1.0.1",
+    "modernizr": "^3.5.0"
+  }
+}
