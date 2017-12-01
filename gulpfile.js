@@ -128,7 +128,6 @@ gulp.task('serve', ['sass'], function() {
 
 gulp.task('watch', ['serve', 'sass', 'clean-html', 'clean-scripts', 'scripts', 'moveFonts', 'images', 'html'], function() {
 	gulp.watch([SOURCEPATHS.sassSource], ['sass']);
-	//gulp.watch([SOURCEPATHS.htmlSource], ['copy']);
 	gulp.watch([SOURCEPATHS.jsSource], ['scripts']);
 	gulp.watch([SOURCEPATHS.imgSource], ['images']);
 	gulp.watch([SOURCEPATHS.htmlSource, SOURCEPATHS.htmlPartialSource], ['html']);
