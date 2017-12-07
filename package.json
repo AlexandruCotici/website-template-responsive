@@ -1,21 +1,21 @@
 {
-  "name": "portfolio",
+  "name": "website-template-responsive",
   "version": "1.0.0",
-  "description": "My Personal Portfolio",
+  "description": "Responsive Website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexandruCotici/Portfolio.git"
+    "url": "git+https://github.com/AlexandruCotici/website-template-responsive.git"
   },
   "author": "Alexandru Cotici <alexandrucoticidesign@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexandruCotici/Portfolio/issues"
+    "url": "https://github.com/AlexandruCotici/website-template-responsive/issues"
   },
-  "homepage": "https://github.com/AlexandruCotici/Portfolio#readme",
+  "homepage": "https://github.com/AlexandruCotici/website-template-responsive#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
@@ -33,5 +33,10 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.1",
     "merge-stream": "^1.0.1"
-  }
+  },
+  "dependencies": {},
+  "keywords": [
+    "Responsive",
+    "Website"
+  ]
 }
